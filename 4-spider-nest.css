@@ -4,11 +4,16 @@ body{
     color: red;
 }
 .colonne1{
+    column-width: 700px;
     position: absolute;
     left: 50px;
-    column-width: 700px;
 }
-.colonne2{
+.etapeNid{
     position: absolute;
-    right: 200px;
+    left: 800px;
+}
+.menu{
+    position: absolute;
+    top: 450px;
+    text-align: center;
 }

@@ -14,8 +14,8 @@ h1{
     transform: scaleX(-1);
 }
 .suggestion{
-    text-align: center;
-    position: absolute;
-    left: 400px;
-    top: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
 }

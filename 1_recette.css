@@ -12,6 +12,11 @@ h1{
     position: absolute;
     right: 150px;
     top: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+.skull{
+    vertical-align: -15px;
 }
 h2{
     text-align: center;
