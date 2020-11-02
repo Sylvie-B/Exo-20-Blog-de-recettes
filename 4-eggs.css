@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    font-size: 18px;
+    color: red;
+}
+.colonne1{
+    position: absolute;
+    left: 50px;
+    column-width: 700px;
+}
+.colonne2{
+    position: absolute;
+    right: 200px;
+}

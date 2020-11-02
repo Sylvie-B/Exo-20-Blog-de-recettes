@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>avis</title>
+    <link rel="stylesheet" href="5-formulaire.css">
+</head>
+<body>
+    <h1>Donnez votre avis sur le Grimoire</h1>
+    <img src="https://i.pinimg.com/564x/d8/2f/f9/d82ff9114fe1cffb1f283f0b59b3a851.jpg" alt="plume rouge" width="350" class="plume">
+    <div class="suggestion">
+        <h3>Des sugestions ?</h3>
+        <p>Vous ètes sûr(e) ?</p>
+        <form action="formulaireInfos.php" method="post">
+            <div>
+                <label for="name" style="color: orange">Votre nom</label>
+                <input type="text" id="name" name="userName">
+            </div>
+            <div>
+                <label for="surname" style="color: orange">Votre prénom</label>
+                <input type="text" id="surname" name="userSurname">
+            </div>
+            <div>
+                <label for="asso" style="color: red">Votre confrérie</label>
+                <input type="text" id="asso" name="userAsso" value="&~à$ù%**µ&ù@">
+            </div>
+            <div>
+                <label for="avis">message</label>
+                <textarea id="avis" name="userAvis"></textarea>
+            </div>
+        </form>
+    </div>
+    <div class="menu">
+        <h4>LE GRIMOIRE</h4>
+        <a href="1_recette.html">Accueil</a><br>
+        <a href="2_toasts-momifiés.html" class="ref">Précédent</a><img src="https://media.istockphoto.com/vectors/modern-flat-skull-crossbones-icon-isolated-on-black-background-vector-id1097228040?k=6&m=1097228040&s=170667a&w=0&h=i0P1RL7AiS9qVWaAZKnf4MHDfm-BYvL4Fe3Y1ZwCAaA=" class="ref" width="50" alt="tete de mort"><a href="4_spider-nest.html" class="ref">Suivant</a><br>
+        <a href="2_toasts-momifiés.html">Végan momifié</a><br>
+        <a href="3_cocktail-sanglant.html"></a>
+        <a href="4_spider-nest.html">Nid d'araignée</a><br>
+        <br>
+        <a href="5_formulaire.html">Des suggestions ?</a>
+    </div>
+</body>
+</html>
